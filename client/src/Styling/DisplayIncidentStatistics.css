@@ -1,0 +1,37 @@
+.DisplayIncidentStatistics {
+    border: 3px solid #fff;
+    border-radius: 5px;
+    padding-left: 20px;
+    display: flex;
+    width: 90%;
+    margin: 20px auto 0;
+    border: 1px solid #A6A7A6;  
+    background-color: #F8F9F8;
+}
+
+.DisplayIncidentStatistics-child {
+    width: 50%;
+    padding: 10px;
+} 
+
+.triggered-tag {
+    color: #d42e1c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.acknowledged-tag {
+    color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.resolved-tag {
+    color: #3cbf13;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.stats-hr {
+    width: 90%;
+}
